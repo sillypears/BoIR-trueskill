@@ -3,6 +3,7 @@ import glob
 from trueskill import Rating, rate_1vs1
 
 
+
 debug = False  # Changing to True will cause printing out exposure change for each match up
 current_file = ''  # Global variable to track which file is being processed, used in name_check function
 calculate_per_round = False
